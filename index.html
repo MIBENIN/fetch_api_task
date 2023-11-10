@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Data Store | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bolder fs-4" href="index.html">Data<span
+                        class="text-primary">Store</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mt-4 mt-lg-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item text-center text-lg-start">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item d-inline-block">
+                            <a class="nav-link btn btn-primary text-light" href="register.html">Register</a>
+                        </li>
+
+                        <li class="nav-item mt-2 mt-lg-0 ms-lg-2">
+                            <a class="nav-link btn btn-outline-primary" href="login.html">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h1 class="text-primary fs-1 text-center pt-5 pb-5 ">Fetch Api</h1>
+
+                <!-- api data -->
+                <div id="api-data" class="row">
+
+                </div>
+                <div id="error-message" class="alert alert-danger d-none"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark pt-4 pb-4">
+        <div class="container text-center">
+            <p class="text-light fw-bold">Contact as @</p>
+            <p class="text-light">+91-6666677777</p>
+            <p class="text-light">Email : sample@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="api.js"></script>
+</body>
+
+</html>
